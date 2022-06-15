@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <h1>Rock, Paper, Scissor Game</h1>
+    </nav>
+<section class="game">  
+    <div class="game-container">
+        <div class="score-container">
+            <p>Computer Score :<span id="computer-score">0</span></p>
+            <p>Your Score :<span id="user-score">0</span></p>
+        </div>
+        <div class="item">
+            <button class="btn" id="rock-btn">
+                <img src="images/icons8-hand-rock-64.png" alt="">
+            </button>
+            <button class="btn" id="paper-btn">
+                <img style="width: 64px;" src="images/icons8-scary-hand-72(-xxhdpi).png" alt="">
+            </button>
+            <button class="btn" id="scissor-btn">
+                <img src="images/icons8-hand-peace-64.png" alt="">
+            </button>
+        </div>
+        <div class="info-container">
+            <p id="user-choice"></p>
+            <p id="computer-choice"></p>
+            <h3 id="result"></h3>
+        </div>
+    </div>
+</section>
+</body>
+<script src="game.js"></script>
+
+</html>
